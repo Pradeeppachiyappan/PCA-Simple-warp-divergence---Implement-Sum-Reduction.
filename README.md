@@ -7,15 +7,20 @@ Compare the performance of the kernel "reduceUnrolling8" and the newly implement
 
 
 ## Procedure:
+### step 1:
 • Implement the "reduceUnrolling16" kernel to handle 16 data blocks per thread.
-
+### step 2:
 • Execute the "reduceUnrolling8" and "reduceUnrolling16" kernels with the same input data
 size and execution configurations.
-
+### step 3:
 • Use proper metrics and events with "nvprof" to analyse the performance of each kernel.
 
 ## Program:
 ## reduceInteger.cu:
+```
+Name : P.Pradeep Raj
+Register No: 212222240073
+```
 ```
 #include "common.h"
 #include <cuda_runtime.h>
